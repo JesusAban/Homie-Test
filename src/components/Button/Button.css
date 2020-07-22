@@ -1,0 +1,35 @@
+.Icon {
+    width: 10px;
+    height: 10px;
+    padding-left: 5px;
+}
+
+.Filter-Department-Button {
+    padding: 5px 7px;
+    background-color: #698DBF;
+    opacity: 0.8;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+}
+
+.Find-Department-Button {
+    width: 220px;
+    background-color: #FF0364;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.Filter-Department-Button,
+.Filter-Department-Button {
+    text-align: center;
+    text-decoration: none;
+}
+
+.Find-Department-Button:hover,
+.Filter-Department-Button:hover {
+    opacity: 1;
+    cursor: pointer;
+}

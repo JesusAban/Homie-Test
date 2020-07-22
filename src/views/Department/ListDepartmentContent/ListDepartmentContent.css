@@ -1,0 +1,48 @@
+.List-Department-Container {
+    width: 450px;
+    float: left;
+}
+
+.Department-Filter-Container {
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+}
+
+.Department-Filter {
+    background-color: #FFF;
+    width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-left: 10px;
+    height: 40px;
+}
+
+.Department-Filter-Location {
+    color: #8D7AE6;
+}
+
+.Department-Filter-Departments {
+    font-size: 12px;
+}
+
+.Department-Filter-Action {
+    padding: 10px;
+    display: inherit;
+    height: 33px;
+    margin-top: -53px;
+    float: right;
+    padding-right: 40px;
+}
+
+.Label-Not-Found {
+    font-weight: bolder;
+    font-size: 12px;
+    margin: auto;
+}
+
+.Label-Suggesting {
+    font-size: 11px;
+    margin: auto;
+    margin-bottom: 20px;
+}

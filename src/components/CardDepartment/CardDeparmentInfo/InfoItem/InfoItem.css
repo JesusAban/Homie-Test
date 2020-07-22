@@ -1,0 +1,33 @@
+.Card-Department-Info-Item {
+    margin: auto;
+    vertical-align: middle;
+    width: 40px;
+    margin-right: -1px;
+    height: 30px;
+    display: inherit;
+    border-right: 1px solid #CCC;
+}
+
+.Card-Department-Info-Item-Text {
+    padding-left: 4px;
+    font-size: 12px;
+}
+
+.Card-Department-Info-Item-Icon {
+    width: 20px;
+    height: 20px;
+}
+
+.Card-Department-Info-Item,
+.Card-Department-Info-Item-Text,
+.Card-Department-Info-Item-Icon {
+    display: inherit;
+}
+
+.Card-Department-Info-Item-Mts {
+    border-right: none;
+}
+
+.Card-Department-Info-Item-Text-Mts::after {
+    content: 'm\00b2';
+}

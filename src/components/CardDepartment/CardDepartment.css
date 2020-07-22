@@ -1,0 +1,50 @@
+.Card-Department{
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Card-Department-Body{
+    width: 100%;
+    height: 150px;
+}
+
+.Card-Department-Default {
+    background-color: #FFF;
+    color: #FF0364;
+}
+
+.Card-Department-Active {
+    background-color: #FF0364;
+    color: #FFF;
+}
+
+.Card-Department-Default,
+.Card-Department-Active {
+    width: 80px;
+    height: 30px;
+    z-index: 3;
+    position: relative;
+    font-weight: bolder;
+    padding-left: 5px;
+    margin-bottom: -30px;
+}
+
+.Card-Department-Banner-Container {
+    z-index: 2;
+    width: 100%;
+    background-color: #FF0364;
+    opacity: 0.3;
+    margin-top: -20px;
+    height: 20px;
+    text-align: center;
+}
+
+.Card-Department-Banner-Title {
+    color: white;
+    opacity: 1;
+    width: 100%;
+    margin: auto;
+    font-size: 11px;
+}

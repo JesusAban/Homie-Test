@@ -1,0 +1,16 @@
+.Logo-Container {
+    width: 20%;
+    float: left;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.Logo {
+    height: 25px;
+}
+
+.Logo-Footer-Container {
+    width: 10%;
+    padding: 10px;
+    display: inline-block;
+}

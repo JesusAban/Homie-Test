@@ -1,0 +1,38 @@
+.Slide-Container {
+    width: 100%;
+    z-index: 0;
+    display: block;
+}
+
+.Slide-Hidden {
+    display: none;
+}
+
+.Slide-Active {
+    display: block;
+}
+
+.Slide-Active {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+    from { 
+        right: 100%; 
+    }
+    to { 
+        left: 0; 
+    }
+}
+  
+@keyframes fade {
+    from { 
+        right: 100%; 
+    }
+    to { 
+        opacity: 0; 
+    }
+}

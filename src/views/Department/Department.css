@@ -1,0 +1,37 @@
+.Department-Container {    
+    margin: auto;
+    min-width: 230px;
+    max-width: 1000px;
+}
+
+.Card-Department-Footer-Title {
+    font-size: 12px;
+    height: 40px;
+}
+
+.Map-Department-Container{
+    margin-top: 10px;
+    width: 450px;
+    height: calc(100vh - 200px);
+    float: left;
+    display: inline-block;
+    position: fixed;
+    border: 1px solid #000;
+}
+
+.Map-Department-Selected {
+    border-color: #FF1555 !important;
+    color: white !important;
+    background-color: #FF1555 !important;
+}
+
+.Map-Department {
+    border-color: #8D7AE6 !important;
+    color: white !important;
+    background-color: #8D7AE6 !important;
+}
+
+.leaflet-container{
+    width: 450px;
+    height: calc(100vh - 200px);
+}

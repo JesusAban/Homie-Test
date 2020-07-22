@@ -1,0 +1,30 @@
+.Navigation-Option-Container:hover {
+    cursor: pointer;
+}
+
+.Navigation-Option-Container-Next {
+    float: right;
+}
+
+.Navigation-Option-Container-Preview {
+    float: left;
+}
+
+.Navigation-Option-Next,
+.Navigation-Option-Next::after {
+    content: '\02C3';
+}
+
+.Navigation-Option-Preview,
+.Navigation-Option-Preview::after{
+    content: '\02C2';
+}
+
+.Navigation-Option-Next,
+.Navigation-Option-Preview {
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+.Container-Item-Wide {
+    width: 25%;
+}
+
+.Container-Item-Simple {
+    width: 20%;
+}
+
+.Container-Item {
+    display: inline-block;
+    margin-left: -10px;
+    vertical-align: middle;
+}
+
+.Container-Item > ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 5px 0px 0px 5px;
+    vertical-align: middle;
+}
+
+.Container-Item > ul > li {
+    padding-bottom: 2px;
+}
+
+.Container-Item > ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

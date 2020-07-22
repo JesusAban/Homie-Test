@@ -1,0 +1,21 @@
+.Slide-Action-Container {
+    z-index: 1;
+    background-color: #000;
+    opacity: 0.2;
+    cursor: pointer;
+    height: 100%;
+    width: 30px;
+    margin-top: -150px;
+}
+
+.Slide-Action-Container:hover {
+    opacity: 0.5;
+}
+
+.Slide-Action {
+    color: #FFF;
+    top: 40%;
+    position: relative;
+    font-weight: bolder;
+    text-align: center;
+}

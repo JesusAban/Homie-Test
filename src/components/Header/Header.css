@@ -1,0 +1,37 @@
+.Header-Container {
+    background-color: #FFF;
+    height: 40px;
+    padding: 10px 0px;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 1px 1px 2px #FF0364;
+    position: fixed;
+    z-index: 100;
+}
+
+.Header {
+    margin: 5px;
+}
+
+.NavBar {
+    height: 40px;
+    float: right;
+    margin-right: 10px;
+}
+
+.NavBar > ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.NavBar > ul > li {
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.Narvar > ul >  li:hover {
+    background-color: #FF0364;
+    color: white;
+    cursor: pointer;
+}
